@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: archpilot-ai-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: archpilot-ai
+  template:
+    metadata:
+      labels:
+        app: archpilot-ai
+    spec:
+      containers:
+        - name: archpilot-ai
+          image: archpilot-ai:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8000

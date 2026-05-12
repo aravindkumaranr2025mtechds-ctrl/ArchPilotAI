@@ -1,0 +1,157 @@
+Monolithic Architecture:
+keywords: low users, low traffic, small team, simple application
+insight: Monolithic suits small apps, low traffic, simple workflows, and small teams.
+
+Monolithic Advantage:
+keywords: simple deployment, low complexity, easy testing
+insight: Monolithic gives simple deployment, low cost, easy testing, and less operational complexity.
+
+Why Not Monolithic:
+keywords: high traffic, large users, scaling limitation
+insight: Monolithic is weak for high traffic, large teams, frequent updates, and independent scaling.
+
+Containerized App:
+keywords: medium traffic, Docker, portability, consistent deployment
+insight: Containerized apps improve portability, packaging, and consistent deployment across environments.
+
+Containerized Advantage:
+keywords: Docker, dependency packaging, environment mismatch
+insight: Docker avoids dependency mismatch and makes deployment consistent across development, testing, and production.
+
+Why Not Only Docker:
+keywords: Docker only, high traffic, no orchestration
+insight: Docker alone cannot provide orchestration, auto-scaling, self-healing, and advanced load balancing.
+
+Microservices Architecture:
+keywords: large team, many integrations, modular services
+insight: Microservices suit large teams, many integrations, independent services, and modular business functions.
+
+Microservices Advantage:
+keywords: independent deployment, service scaling, maintainability
+insight: Microservices allow independent deployment, service-level scaling, and better maintainability.
+
+Why Not Microservices:
+keywords: small team, low traffic, complexity
+insight: Microservices add complexity for small teams, low traffic, and simple applications.
+
+Kubernetes Deployment:
+keywords: high users, high traffic, high scalability, daily updates
+insight: Kubernetes suits high traffic, high scalability, frequent updates, and production orchestration.
+
+Kubernetes Advantage:
+keywords: auto scaling, load balancing, self healing, rolling updates
+insight: Kubernetes provides auto-scaling, load balancing, self-healing, service discovery, and rolling updates.
+
+Why Kubernetes Preferred:
+keywords: high traffic, daily updates, many integrations, high security
+insight: Kubernetes is preferred when scaling, recovery, automation, and high availability are critical.
+
+Why Not Kubernetes:
+keywords: small application, low budget, low skill, complexity
+insight: Kubernetes may be costly and complex for small applications or low DevOps-skilled teams.
+
+High Users:
+keywords: users_count, large users, concurrent users
+insight: Large user count needs scalable architecture, load balancing, and high availability.
+
+High Traffic:
+keywords: traffic_level high, request load, heavy traffic
+insight: High traffic needs load balancing, auto-scaling, caching, and fault-tolerant deployment.
+
+Daily Updates:
+keywords: update_frequency daily, frequent updates, CI/CD
+insight: Daily updates need CI/CD, rolling deployment, rollback, and automation.
+
+Many Integrations:
+keywords: integrations, third party APIs, external systems
+insight: Many integrations need service separation, API management, monitoring, and secure communication.
+
+High Security:
+keywords: security_level high, JWT, RBAC, secure API
+insight: High security needs JWT authentication, RBAC authorization, audit logs, and secure API design.
+
+High Scalability:
+keywords: scalability_need high, auto scaling, future growth
+insight: High scalability needs Kubernetes, orchestration, load balancing, and distributed deployment.
+
+REST API:
+keywords: REST API, external API, web app, mobile app
+insight: REST API is suitable for external clients, web applications, and mobile applications.
+
+gRPC API:
+keywords: gRPC, internal service communication, microservices
+insight: gRPC is useful for fast internal communication between microservices.
+
+Event Driven:
+keywords: event driven, asynchronous, high scale communication
+insight: Event-driven communication helps high-scale systems process tasks asynchronously.
+
+JWT Authentication:
+keywords: JWT, token authentication, secure login
+insight: JWT provides lightweight token-based authentication for secure API access.
+
+RBAC:
+keywords: RBAC, role based access, permissions
+insight: RBAC controls admin, developer, and viewer permissions based on roles.
+
+Cloud PaaS:
+keywords: PaaS, managed deployment, simple deployment
+insight: Cloud PaaS is useful when teams need simpler managed deployment with less DevOps effort.
+
+VM Deployment:
+keywords: VM, virtual machine, legacy, full OS control
+insight: VM deployment suits legacy systems, full OS control, or budget-constrained environments.
+
+Banking Use Case:
+keywords: banking, fintech, payment, security
+insight: Banking apps need secure APIs, high availability, RBAC, and scalable deployment.
+
+Ecommerce Use Case:
+keywords: ecommerce, orders, inventory, high traffic
+insight: E-commerce apps need scalable order, payment, inventory, and traffic handling.
+
+Decision Support:
+keywords: human architect, decision support, final decision
+insight: This system supports architects, but final architecture decisions need human validation.
+Large Team:
+keywords: large team, many developers, parallel development, independent teams
+insight: Large teams benefit from modular architecture, independent services, and separate deployment ownership.
+
+Medium Team:
+keywords: medium team, growing team, moderate developers
+insight: Medium teams can use containerized or modular architecture for easier collaboration.
+
+Small Team:
+keywords: small team, few developers, simple management
+insight: Small teams should avoid unnecessary architecture complexity and prefer simple deployment.
+
+Medium Users:
+keywords: medium users, moderate users, growing users
+insight: Medium users can start with Docker-based deployment and scale later.
+
+Medium Scalability:
+keywords: medium scalability, moderate growth, growing system
+insight: Medium scalability can use Docker first and move to Kubernetes when traffic grows.
+
+Medium Security:
+keywords: medium security, authentication, authorization
+insight: Medium security needs authentication, authorization, and controlled API access.
+
+Few Integrations:
+keywords: few integrations, simple API, limited external systems
+insight: Few integrations can work with REST API and simple modular design.
+
+Medium Integrations:
+keywords: medium integrations, moderate APIs, growing integrations
+insight: Medium integrations need API management and clear module separation.
+Large Team:
+keywords: large team, many developers, parallel development, independent teams
+insight: Large teams benefit from modular architecture, independent services, and separate deployment ownership.
+
+Rolling Deployment:
+keywords: rolling deployment, rolling updates, zero downtime, Kubernetes rollout
+insight: Rolling deployment updates services gradually without stopping the full application.
+
+Docker Deployment:
+keywords: Docker deployment, container deployment, image packaging
+insight: Docker packages application dependencies and ensures consistent deployment across environments.
